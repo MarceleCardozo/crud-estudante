@@ -50,10 +50,7 @@ app.post("/alunos", async (req, res) => {
     email,
     criptografaSenha,
   };
-
-  //verificar email
-  //verificar nome
-
+  
   alunos.push(novoAluno);
 
   res.status(201).json({
